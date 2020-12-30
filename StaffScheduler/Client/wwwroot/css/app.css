@@ -35,3 +35,8 @@ html, body {
     left: 0px;
     height: 25px;
 }
+
+/*Custom */
+.nav-link {
+	color: #DD2476 !important;
+}

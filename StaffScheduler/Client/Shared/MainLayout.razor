@@ -5,7 +5,7 @@
         <NavMenu />
     </div>*@
 
-    <div class="main">
+    @*<div class="main">
         <div class="top-row px-4">
             <a href="http://blazor.net" target="_blank" class="ml-md-auto">About</a>
         </div>
@@ -13,5 +13,29 @@
         <div class="content px-4">
             @Body
         </div>
-    </div>
+    </div>*@
+	@*<img src="~/images/teamwork-healthcare.svg" />*@
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+		<a class="navbar-brand" href="#">
+			<img src="/images/teamwork-healthcare.svg" alt="Staff Scheduler" style="width:100px;" />
+			Staff Scheduler
+		</a>
+		<!-- Toggler/collapsibe Button -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Onboard Child</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Maintain Staff</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Manage Schedule</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 </div>
