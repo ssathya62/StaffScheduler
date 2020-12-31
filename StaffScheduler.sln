@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaffScheduler.Client", "St
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaffScheduler.Shared", "StaffScheduler\Shared\StaffScheduler.Shared.csproj", "{BCC76AA1-2334-498C-9830-BA9171BEC60B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoRepository", "MongoRepository\MongoRepository.csproj", "{250DD25B-C92D-41FE-9102-E23290BE01FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoRepository", "MongoRepository\MongoRepository.csproj", "{250DD25B-C92D-41FE-9102-E23290BE01FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{87219E64-177F-4066-A7E9-0A8389BE181C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{250DD25B-C92D-41FE-9102-E23290BE01FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{250DD25B-C92D-41FE-9102-E23290BE01FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{250DD25B-C92D-41FE-9102-E23290BE01FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87219E64-177F-4066-A7E9-0A8389BE181C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87219E64-177F-4066-A7E9-0A8389BE181C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87219E64-177F-4066-A7E9-0A8389BE181C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87219E64-177F-4066-A7E9-0A8389BE181C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
